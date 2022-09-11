@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1146/1146795.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css" type:="text/css"/>
+
+  <title>Openweathermap API</title>
+</head>
+<body>
+  <div>
+    <img src="https://cdn-icons-png.flaticon.com/512/2698/2698240.png" id="LogoPagina">
+    <h2 id="titulo">Weather Forecast API</h2>
+    <div>
+      <div id="espacio" class="xd">
+        <label for="selectCiudad" class="texto">Select a city</label>
+        <select id="selectCiudad" class="form-select"></select>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-warning" id="boton">Search</button>
+  </div>
+  <div class="contenidoClimaCiudad"></div>
+</body>
+<script src="./data/dropdown.js" type="module"></script>
+<script src="./index.js" type="module"></script>
+</html>

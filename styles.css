@@ -1,0 +1,62 @@
+body{
+    background-color:rgb(218, 218, 218);
+    font-family:monospace;
+}
+
+#LogoPagina{
+    width:150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#boton{
+    border-radius: 5px;
+    border-width: 1px;
+    width: 200px;
+    height:40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:medium;
+    font-family:'Lucida Sans';
+    cursor:pointer;
+}
+
+#banderaId{
+    width:150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto{
+    font-weight:normal;
+    font-size: large;
+    text-align: center;
+}
+
+#titulo{
+    font-size:xx-large;
+    text-align: center;
+
+}
+
+#clima{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.xd{
+    text-align: center;
+}
+
+#espacio{
+    padding-bottom: 20px;
+}
+
+.form-select{
+    border-radius: 5px;
+    border-width: 2px;
+}
